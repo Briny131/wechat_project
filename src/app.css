@@ -1,0 +1,48 @@
+.green{
+    background:rgb(73, 185, 139)
+}
+.lightGreen{
+    background:rgb(189, 223, 208)
+}
+.height{
+  height:100%;
+}
+.three{
+  height:5em
+}
+.four{
+    height:18.33em
+}
+.five{
+    height:8.33em
+}
+.six{
+    height:1.66em
+}
+.size{
+    box-sizing: border-box;
+}
+.font{
+    font-size: 90%;
+    padding-left:0.3em
+}
+.btn{
+    height:100rpx;
+    line-height:100rpx;
+    position:relative;
+}
+.b::after{
+    content:'';
+    position:absolute;
+    right:0;
+    top:0;
+    height:calc(100% - 1px);
+    width:1px;
+    background:rgb(201, 200, 200)
+}
+.place{
+    color:rgb(187, 187, 187)
+}
+.black{
+    color:black!important
+}
